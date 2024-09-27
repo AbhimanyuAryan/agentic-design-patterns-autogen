@@ -1,0 +1,27 @@
+[project]
+name = "agentic-design-patterns-autogen"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Abhimanyu Aryan", email = "aaryan@cegid.com"},
+]
+dependencies = [
+    "jupyter>=1.1.1",
+    "pyautogen==0.2.25",
+    "chess==1.10.0",
+    "matplotlib>=3.9.2",
+    "numpy>=1.26.4",
+    "pandas>=2.2.3",
+    "yfinance>=0.2.43",
+]
+requires-python = "<3.13,>=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
