@@ -1473,7 +1473,7 @@ files = [
 ]
 
 [[package]]
-name = "pyautogen"
+name = "ag2"
 version = "0.2.25"
 requires_python = "<3.13,>=3.8"
 summary = "Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework"
@@ -1490,8 +1490,8 @@ dependencies = [
     "tiktoken",
 ]
 files = [
-    {file = "pyautogen-0.2.25-py3-none-any.whl", hash = "sha256:a17090f445d3af969ce7440686866333b43321067a68f9bd56c497eea0c8e750"},
-    {file = "pyautogen-0.2.25.tar.gz", hash = "sha256:3cfff3e13bcb13a1bddc322effd4715670b4c3ba3f8d0548a7329154c8ac0ab6"},
+    {file = "ag2-0.2.25-py3-none-any.whl", hash = "sha256:a17090f445d3af969ce7440686866333b43321067a68f9bd56c497eea0c8e750"},
+    {file = "ag2-0.2.25.tar.gz", hash = "sha256:3cfff3e13bcb13a1bddc322effd4715670b4c3ba3f8d0548a7329154c8ac0ab6"},
 ]
 
 [[package]]
